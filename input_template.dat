@@ -1,0 +1,24 @@
+#DATA
+df_path                 /scratch/project_2003525/beselvit/ActiveAtmos/A_MachineLearning/ACTIVE/ALL_LABELLED/DATA/DATAPOOL_FULL.dump
+latest_idx_path         /scratch/project_2003525/beselvit/ActiveAtmos/A_MachineLearning/ACTIVE/ALL_LABELLED/DATA/trainset_2k_AAA.txt
+test_idx_path           /scratch/project_2003525/beselvit/ActiveAtmos/A_MachineLearning/ACTIVE/ALL_LABELLED/DATA/testset_general.txt
+test_set_size           2000
+batch_size              500
+upper_lim               2e10
+lower_lim               1e-30
+
+#HYPERPARAM
+init_const              3000.0
+init_length             3000.0
+init_noise              0.22
+
+#HYPERPARAM_PRIORS
+consta_V                50 
+length_scalea_V         50 
+constb_V                0.01
+length_scaleb_V         0.01
+
+#DETAILS
+num_restarts            3
+rnd_seed                AAA
+num_gpus                1
